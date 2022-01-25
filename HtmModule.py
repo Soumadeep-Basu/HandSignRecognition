@@ -102,6 +102,8 @@ def main():
                     handDetector.alert_List.append("P")
                     
                     print("HELP detected")
+                    path = "C:/Users/soumadeep basu/Pictures/POC/" + str(time.time()) + ".jpg"
+                    cv2.imwrite(path,img)
 
 
                 
